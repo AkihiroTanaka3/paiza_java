@@ -7,8 +7,14 @@ public class Main7 {
             int number = scan.nextInt();
             System.out.println(number);
             
-            if (number == 10) {
+            if (number == 100) {
                 System.out.println("Welcome");
+            }
+            if (number >= 100) {
+                System.out.println(number + "です");
+            }
+            if (number < 100) {
+                System.out.println(number + "だ");
             }
         }
     }
