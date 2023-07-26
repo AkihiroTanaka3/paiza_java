@@ -14,6 +14,18 @@ public class Main8 {
             } else {
                 System.out.println("Goodbye");
             }
+            if (number > 100) {
+                System.out.println(number);
+            } else {
+                System.out.println("100以下です");
+            }
+            if (number == 100) {
+                System.out.println(number);
+            } else if (number > 100) {
+                System.out.println("100より大きい");
+            } else {
+                System.out.println("100より小さい");
+            }
         }
     }
 }
