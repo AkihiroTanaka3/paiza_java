@@ -16,7 +16,9 @@ public class Main9 {
                 System.out.println("Goodbye");
             }
             if (name.equals("Hello")) {
-            System.out.println("こんにちは");
+                System.out.println("こんにちは");
+            } else {
+                System.out.println("さようなら");
             }
         }
     }
