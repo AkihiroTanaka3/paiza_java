@@ -15,6 +15,10 @@ public class Main9 {
             } else {
                 System.out.println("Goodbye");
             }
+            if (name.equals("Hello")) {
+            System.out.println("こんにちは");
+            }
         }
     }
+    
 }
