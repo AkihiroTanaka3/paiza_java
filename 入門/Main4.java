@@ -16,5 +16,8 @@ public class Main4 {
 		// 以下に、xとyを割ったときの余りを計算し、結果を出力するコードを書いてください
         int number2 = x % y;
         System.out.println(number2);
+        		// 以下に計算式を書いて、結果を出力する
+		int number3 = (1234 + 5678) * 3;
+		System.out.println(number3);
 	}
 }
