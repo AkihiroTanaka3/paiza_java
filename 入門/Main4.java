@@ -11,5 +11,10 @@ public class Main4 {
 		// 以下に、aとbのかけ算し、結果を出力するコードを書いてください
         int number1 = a * b;
         System.out.println(number1);
+        int x = 8;
+		int y = 5;
+		// 以下に、xとyを割ったときの余りを計算し、結果を出力するコードを書いてください
+        int number2 = x % y;
+        System.out.println(number2);
 	}
 }
