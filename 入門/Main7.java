@@ -10,6 +10,12 @@ public class Main7 {
         } else {
             System.out.println(number + "キライ！"); //条件が成立しなかった時の処理
         }
+        int number1 =(int)(Math.random() * 3 + 1);
+		System.out.println("あなたの順位は" + number1 + "位です");
+		// ここにif文を追加する
+        if (number1 == 1){
+            System.out.println("おめでとう！");
+        }
 	}
 }
 
