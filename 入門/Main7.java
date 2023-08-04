@@ -15,6 +15,8 @@ public class Main7 {
 		// ここにif文を追加する
         if (number1 == 1){
             System.out.println("おめでとう！");
+        } else {
+            System.out.println("あと少し！");
         }
 	}
 }
