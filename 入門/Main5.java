@@ -10,6 +10,12 @@ public class Main5 {
 		
 		int total = apple_price * apple_num;
 		System.out.println("合計金額:" + total + "円");
+
+        int number =(int)(Math.random() * 10 + 1);	// 匹数 1 ～ 10
+        System.out.println("体重100キロのスライムが、" + number + "匹あらわれた。");
+        // 合計体重 =匹数 × 100
+        int total1 = number * 100;
+        System.out.println("スライムの合計体重は、" + total1 + "キロです。");
 	}
 }
 
