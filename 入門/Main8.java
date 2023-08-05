@@ -11,5 +11,15 @@ public class Main8 {
 		} else {
 			System.out.println("キライ");		// 条件式が成立しなかったときの処理
 		}
+        int number1 = (int)(Math.random() * 5 + 1);
+		System.out.println("あなたの順位は" + number + "位です");
+		// ここにif文を追加する
+		if (number1 == 1) {
+		    System.out.println("おめでとう！");
+		} else if (number1 == 2) {
+		    System.out.println("あと少し！");
+		} else {
+		    System.out.println("よくがんばったね");
+		}
 	}
 }
