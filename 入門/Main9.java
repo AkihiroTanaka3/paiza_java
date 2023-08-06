@@ -12,5 +12,14 @@ public class Main9 {
 		} else if (time > 12) {
 		    System.out.println("午後");
 		}
+
+        int age = (int)(Math.random() * 5 + 18);
+		System.out.print(age + "才は");
+		// ここにif文を追加する
+		if (age < 20) {
+		    System.out.println("飲酒不可");
+		} else if (age >= 20) {
+		    System.out.println("飲酒可能");
+		}
 	}
 }
