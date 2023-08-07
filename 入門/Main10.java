@@ -18,6 +18,13 @@ public class Main10 {
         } else {
             System.out.println("大凶");
         }
+
+        int omikuji2 = (int)(Math.random() * 100 + 1);  // randomメソッドについては次のチャプターで説明します
+		if (omikuji2 > 30) {
+			System.out.println("omikujiの中身は" + omikuji2 + "なので大吉");
+		} else {
+			System.out.println("omikujiの中身は" + omikuji2 + "なので大凶");
+		}
 	}
 }
 
