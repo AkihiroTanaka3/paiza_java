@@ -25,6 +25,15 @@ public class Main12 {
         // 　西暦2015年から「1988」を引くと、27 > 2015年は平成27年
         int heisei = seireki - 1988;
         System.out.println("平成" + heisei + "年です。");
+
+        // 西暦年から昭和年を求める
+		int seireki1 = (int)(Math.random() * 63 + 1926);
+		System.out.print("西暦" + seireki1 + "年は");
+
+		// 昭和年を計算
+		int showa = seireki1 - 1925;
+		System.out.println("昭和" + showa + "年です。");
+
 	}
 }
 
