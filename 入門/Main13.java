@@ -20,6 +20,15 @@ public class Main13 {
         } else {
             System.out.println("残念");
         }
+
+        double rand2 = (Math.random() * 10) + 1;
+        int number = (int) rand2;
+        System.out.println("あなたの順位は" + number + "位です");
+
+        //　ここにifを追加する
+        if (number <= 5 && number >= 2) {
+            System.out.println("あと少し");
+        }
     }
 }
 
