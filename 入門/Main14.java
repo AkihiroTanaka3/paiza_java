@@ -19,6 +19,15 @@ public class Main14 {
         } else {
             System.out.println("残念！");
         }
+
+        double rand1 = (Math.random() * 71) + 30;
+        int discomfort = (int) rand1;
+        System.out.println("不快指数は" + discomfort + "です。");
+
+        //　ここにifを追加する
+        if (discomfort <= 55 || discomfort >= 70) {
+        System.out.println("不快です");
+        }
     }
 }
 
