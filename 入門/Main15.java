@@ -12,6 +12,15 @@ public class Main15 {
             System.out.println("キライ");
         }
         System.out.println(flag);
+
+        double rand = (Math.random() * 10) + 1;
+        int number1 = (int) rand;
+        System.out.println("あなたの順位は" + number1 + "位です");    
+        boolean flag1 = number <= 3;
+        //　ここにifを追加する
+        if (flag1 == true) {
+            System.out.println("入賞おめでとう");
+        }
     }
 }
 
@@ -39,5 +48,3 @@ public class Main15 {
 // - number > 10 false
 
 // 論理演算は、評価の結果として、trueかfalseを返します。
-
-
