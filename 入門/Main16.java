@@ -19,6 +19,10 @@ public class Main16 {
          System.out.println(text);
          System.out.println(Integer.parseInt(text) * 10);
          System.out.println(Double.parseDouble(text) * 10);
+
+         String text1 = "0.08";
+         // System.out.println(text1);
+         System.out.println(Double.parseDouble(text1));
     }
 }
 
