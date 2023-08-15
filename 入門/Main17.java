@@ -15,5 +15,10 @@ public class Main17 {
         int amountPerPerson = amount / person;
         int remainder = amount % person;
         System.out.println("一人当たり" + amountPerPerson + "円、余り" + remainder + "円です。");
+
+        int price1 = 128;
+        int weight1 = 300;
+        int amount1 = (int)(((double)price1 / 100) * weight1);
+        System.out.println("100グラム" + price1 + "円の肉、" + weight1 + "グラムは、" + amount1 + "円です。");
     }
 }
