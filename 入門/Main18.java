@@ -22,6 +22,13 @@ public class Main18 {
             System.out.println(k);
             k = k + 1;
         }
+
+        int i1 = 3;    // カウンタ変数の初期化
+        while (i1 <= 10) {
+            System.out.println("hello world " + i1);    // 繰り返し処理
+            i1 = i1 + 2;    // カウンタ変数の更新
+        }
+        System.out.println ("last " + i1);
     }
 }
 
