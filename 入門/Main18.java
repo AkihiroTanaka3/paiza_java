@@ -29,6 +29,12 @@ public class Main18 {
             i1 = i1 + 2;    // カウンタ変数の更新
         }
         System.out.println ("last " + i1);
+
+        int i2 = 2;
+        while(i2 <= 10) {
+            System.out.println(i2);
+            i2 = i2 + 2;
+        }
     }
 }
 
