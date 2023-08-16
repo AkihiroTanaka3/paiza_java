@@ -16,6 +16,12 @@ public class Main18 {
         System.out.println("ハローpaizaラーニング" + j);
         j = j + 1;
         }
+
+        int k = 0;
+        while(k < 16) {
+            System.out.println(k);
+            k = k + 1;
+        }
     }
 }
 
