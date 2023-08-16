@@ -10,6 +10,12 @@ public class Main18 {
             i = i + 1; // カウンタ変数の更新
         }
         System.out.println("last " + i);
+
+        int j = 0;
+        while (j < 10) {
+        System.out.println("ハローpaizaラーニング" + j);
+        j = j + 1;
+        }
     }
 }
 
