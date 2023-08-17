@@ -8,6 +8,10 @@ public class Main19 {
         try (Scanner sc = new Scanner(System.in)) {
         String data = sc.next();
         System.out.println("hello " + data);
+        String text = sc.next();
+        System.out.println(text + "です");
+        int number = sc.nextInt();
+        System.out.println(number * 10 + 20);
         }
     }
 }
