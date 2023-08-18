@@ -20,6 +20,13 @@ public class Main20 {
                 data = sc.next();
                 System.out.println(data + "は、スライムを攻撃した");
             }
+
+            int number1 = sc.nextInt();
+            int number2 = sc.nextInt();
+            
+            for (int i = number1; i <= number2; i++) {
+                System.out.println(i);
+            }
         }
     }
 }
