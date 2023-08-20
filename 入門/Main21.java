@@ -27,5 +27,14 @@ public class Main21 {
         System.out.println(item[0]);
         System.out.println(item[1]);
         System.out.println(item[2]);
+
+        String player_4 = "勇者2";
+        String player_5 = "魔法使い2";
+        String player_3 = "戦士2";
+        // player_1 ~ 3を、配列に代入して、printlnメソッドで出力してください。
+        String[] teams = {player_4, player_5, player_3};
+        System.out.println(teams[0]);
+        System.out.println(teams[1]);
+        System.out.println(teams[2]);
     }
 }
