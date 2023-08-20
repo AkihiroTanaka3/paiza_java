@@ -21,5 +21,11 @@ public class Main21 {
         System.out.println(array[1]);
         System.out.println(array[2]);
         System.out.println(array[3]);
+
+        // 指定の文字を配列にする
+        String item[] = {"ロングソード", "ブレードソード", "エクスカリバー"};
+        System.out.println(item[0]);
+        System.out.println(item[1]);
+        System.out.println(item[2]);
     }
 }
