@@ -7,6 +7,7 @@ public class Main23 {
         System.out.println("hello world");
         sayHello();
         sayHello("java");
+        sayHello("abc");
     }
     
     public static void sayHello() {
