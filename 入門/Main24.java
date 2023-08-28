@@ -11,6 +11,8 @@ public class Main24 {
         greeting1.sayHello();
         Greeting greeting2 = new Greeting();
         greeting2.sayHello("java");
+        Greeting greeting3 = new Greeting();
+        greeting3.sayHello("paiza");
     }
 }
     
